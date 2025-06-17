@@ -1,8 +1,6 @@
 cask "wakey-wakey" do
   version "1.0.0"
-  # After creating a GitHub release, update this SHA256 with the actual value
-  # You can get it by running: shasum -a 256 path/to/WakeyWakey.dmg
-  sha256 "replace_with_actual_sha256_after_first_release"
+  sha256 "dfaf1a8a66e6ccb9df86bb226b7c861097c9d95d9aea6f23f474bac28dadd3c1"
 
   url "https://github.com/joelio/wakeywakey/releases/download/v#{version}/WakeyWakey.dmg"
   name "Wakey Wakey"
